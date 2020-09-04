@@ -143,6 +143,12 @@ body{
     width: 100%;
 }
 
+.subtitle{
+    font-size: 20px;
+    padding: 30px 0;
+    font-weight: 500;
+}
+
 .shadow-dark{
     -webkit-box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
@@ -471,6 +477,11 @@ body{
     text-align: justify;
 }
 
+.tutorial iframe{
+    width: 100%;
+    height: 600px;
+}
+
 /* Responsive */
 
 @media (max-width: 991px){
@@ -514,5 +525,10 @@ body{
         color: #504e70;
         margin: 0;
         text-align: justify;
+    }
+
+    .tutorial iframe{
+        width: 100%;
+        height: 300px;
     }
 }
